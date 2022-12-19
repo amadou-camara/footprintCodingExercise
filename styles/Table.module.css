@@ -1,0 +1,78 @@
+.table {
+    border-spacing: 0;
+    border-style: hidden;
+    border:solid #d4d4d4 1.5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.table thead th {
+    background-color: #f7f7f7;
+}
+
+.table th {
+    text-align: start;
+    padding: 20px;
+    width: 14.28%;
+    max-width: 200px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.table tr {
+    border-bottom: solid #d4d4d4 1px;
+}
+
+.table tbody td {
+    padding: 20px;
+    max-width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.paginationContainer {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+.button {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border:solid #d4d4d4 1.5px;
+}
+
+.verified {
+    text-transform: capitalize;
+    background-color: #e9f5f1;
+    color: #0b6a4a;
+    padding: 10px;
+    border-radius: 15px;
+    width: fit-content;
+}
+
+.failed {
+    text-transform: capitalize;
+    background-color: #fff2f0;
+    color: #990f07;
+    padding: 10px;
+    border-radius: 15px;
+    width: fit-content;
+}
+
+.copyToClipboardButton {
+    color: #990f07;
+    background-color: #f7f7f7;
+    padding: 5px;
+    max-width: fit-content;
+    border-radius: 4px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
